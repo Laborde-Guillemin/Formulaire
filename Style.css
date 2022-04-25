@@ -1,0 +1,46 @@
+* {
+    font-family: Consolas, monaco, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #EEE0CB;
+}
+
+
+/*-----
+-Login-
+-----*/
+
+h1 {
+    margin-top: 10rem;
+}
+
+#email,
+#password {
+    padding: 1rem 5rem;
+}
+
+.size {
+    height: 2rem;
+    width: 12rem;
+    border-radius: 180px;
+    border-color: black;
+    background-color: #baa898;
+}
+
+input[type="email"]:invalid {
+    color: red;
+}
+
+input[type="email"]:valid {
+    color: green;
+}
+
+button {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 180px;
+}
