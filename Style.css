@@ -6,9 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #EEE0CB;
+    
 }
-
 
 /*-----
 -Login-
@@ -43,4 +42,25 @@ button {
     height: 2rem;
     width: 6rem;
     border-radius: 180px;
+    cursor: pointer;
+}
+
+
+
+/*mettre un theme claire ou sombre en fonction des paramètres systemes de la machine*/
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: #ffff;
+    }
+    .size{
+        background-color: rgb(167, 164, 164);
+    }
+}
+ @media (prefers-color-scheme: light) {
+    body {
+        background-color: #EEE0CB;
+        color: black;
+    }
 }
