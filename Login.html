@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
-    <meta name="author" content="Guillemin Laborde">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Style.css">
-    <script type="text/javascript" src="App.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
-    <section>
+    <nav id="menu">
+        <div id="box">
+            <input type="checkbox" id="clic">
+            <span class="nav">
+            <a href="#" target="_blank">
+                <img src="Img/housebalck.png" onmouseover="this.src='Img/housewhite.png'"  onmouseout="this.src='Img/housebalck.png'" />
+            </a>
+            <a href="#" target="_blank">
+                <img src="Img/settingsblack.png" onmouseover="this.src='Img/settingswhite.png'"  onmouseout="this.src='Img/settingsblack.png'" />
+            </a>
+            <a href="#" target="_blank">
+                <img src="Img/userblack.png" onmouseover="this.src='Img/userwhite.png'"  onmouseout="this.src='Img/userblack.png'" />
+            </a>
+        </span>
+        </div>
+    </nav>
+    <section id='Log'>
         <h1>Login</h1>
         <div id="Login">
             <div id="email">
@@ -24,10 +36,13 @@
                 <input class="size" type="password" placeholder="Password">
             </div>
             <div id="connextion">
-                <button type="button">Connexion</button>
+                <a href="#">
+                    <button type="button">Connexion</button>
+                </a>
             </div>
         </div>
     </section>
+
 </body>
 
 </html>

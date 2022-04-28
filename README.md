@@ -1,5 +1,11 @@
 # Formulaire
 
-Le but est de créé un formulaire sans backhand.
+### But du projet:
 
-Et de testé plusieurs chose dans.
+Une page web qui comporte plusieurs truc.
+
+ex: page login
+![alt text](Capture-Readme/Menu.png)
+
+ex: page login + menu
+![alt text](Capture-Readme/Menu-ouvert.png)
